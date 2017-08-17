@@ -1,0 +1,1493 @@
+/*index.css*/
+/*-   -精选品牌   start--*/
+.selectbox{		/*selectbox整体样式*/
+	height:369px;
+	position: relative;
+}
+.selectbox-top{		/*selectbox上方整体样式*/
+	height:40px;
+	width:964px;
+	
+}
+.selectbox-top h3{	/*selectbox上方“精选品牌”样式*/
+	font-size:18px;
+	height:40px;
+	line-height: 40px;
+	color:#3F1F27;
+	float: left;
+}
+.selectbox-top span{	/*selectbox上方“Brand selection”样式*/
+	font-size:16px;
+	height:40px;
+	line-height: 40px;
+	color:#A59999;
+	float: left;
+	padding-left:5px;
+}
+.selectbox-top a{	/*selectbox上方“全部”样式*/
+	float: right;
+	height:40px;
+	line-height: 40px;
+	padding-right:13px;
+}
+.selectbox-top i{	/*selectbox上方“箭头”样式*/
+	width:7px;
+	height:12px;
+	display: inline-block;
+	position: absolute;
+	top:14px;
+	right:246px;
+	background: url('../images/arrow-right.png') no-repeat;
+}
+.selectbox-top a:hover{	/*selectbox上方“全部”鼠标覆盖样式*/
+	color: #666666;
+}
+.selectbox-middle{
+	height:329px;
+	width:964px;
+}
+.selectbox-middle .selective{	/*selectbox大图片整体样式*/
+	height:329px;
+	width:229px;
+	float: left;
+}
+.selectbox-middleul{	/*selectbox小图片整体样式*/
+	height:328px;
+	width:735px;
+	border-top:1px solid #DFDFDF;
+	float: left;
+}
+.selectbox-middleul li{	/*selectbox小图片单独样式*/
+	height:81px;
+	width:146px;
+	float: left;
+	border-right:1px solid #DFDFDF;
+	border-bottom:1px solid #DFDFDF;
+}
+.selectbox-right{		/*selectbox右边单独样式*/
+	width:225px;
+	height:113px;
+	border:1px solid #DFDFDF;
+	position: absolute;
+	right:0;
+	top:0;
+}
+
+/*-   -精选品牌   end--*/
+
+
+
+
+/*-   -美食   start--*/
+.food{		/*food整体样式*/
+	height:2900px;
+	margin-top:20px;
+	position: relative;
+}
+.foodtitle{		/*foodtitle整体样式*/
+	height:30px;
+	width:1210px;
+	
+}
+.foodtitle-left{	/*foodtitle左边整体样式*/
+	height:30px;
+	width:80px;
+}
+.foodtitle-left i{	/*foodtitle左边图片样式*/
+	width:21px;
+	height:21px;
+	background: url('../images/foodtitle.png') no-repeat;
+	position: absolute;
+	top:5px;
+	left:0;
+}
+.foodtitle-left p{		/*foodtitle左边文字样式*/
+	height: 30px;
+	line-height: 30px;
+	margin-left:35px;
+	font-size:18px;
+	font-weight: bold;
+}
+.foodtitle-right{		/*foodtitle右边整体样式*/
+	height:30px;
+	width:367px;
+}
+.foodtitle-right ul li{	/*foodtitle右边单独li样式*/
+	float: left;
+	height:30px;
+	line-height: 30px;
+	color:#767676;
+}
+.foodtitle-right ul li a{	/*foodtitle右边单独li下面超链接样式*/
+	padding:0 14px;
+	color:#767676;
+}
+.foodtitle-right ul li a:hover{		/*foodtitle右边单独li下面超链接覆盖样式*/
+	color:#005AA0;
+}
+.foodtitle-right i{		/*foodtitle右边箭头样式*/
+	width:7px;
+	height:12px;
+	background: url('../images/arrow-right.png') no-repeat;
+	position: absolute;
+	top:9px;
+	right:5px;
+}
+
+.foodbox{		/*foodbox整体样式*/
+	height:2798px;
+	position: relative;
+}
+.border1{	/*绝对定位的竖线1整体样式*/
+	position: absolute;
+	display: inline-block;
+	width:1210px;
+	height:1px;
+	background:#DFDFDF;
+	top:335px;
+	left:0;
+}
+.border2{		/*绝对定位的竖线2整体样式*/
+	position: absolute;
+	display: inline-block;
+	width:1210px;
+	height:1px;
+	background:#DFDFDF;
+	top:685px;
+	left:0;
+}
+.border3{		/*绝对定位的竖线3整体样式*/
+	position: absolute;
+	display: inline-block;
+	width:1210px;
+	height:1px;
+	background:#DFDFDF;
+	top:1041px;
+	left:0;
+}
+.border4{		/*绝对定位的竖线4整体样式*/
+	position: absolute;
+	display: inline-block;
+	width:1210px;
+	height:1px;
+	background:#DFDFDF;
+	top:1396px;
+	left:0;
+}
+.border5{		/*绝对定位的竖线5整体样式*/
+	position: absolute;
+	display: inline-block;
+	width:1210px;
+	height:1px;
+	background:#DFDFDF;
+	top:1748px;
+	left:0;
+}
+.border6{		/*绝对定位的竖线6整体样式*/
+	position: absolute;
+	display: inline-block;
+	width:1210px;
+	height:1px;
+	background:#DFDFDF;
+	top:2103px;
+	left:0;
+}
+.border7{		/*绝对定位的竖线7整体样式*/
+	position: absolute;
+	display: inline-block;
+	width:1210px;
+	height:1px;
+	background:#DFDFDF;
+	top:2456px;
+	left:0;
+}
+.foodbox ul li{		/*foodbox下面的li单独样式*/
+	float: left;
+	width:231px;
+	height:306px;
+	border:1px solid #fff;
+	margin:4px 0px 42px 11px;
+	position: relative;
+}
+.foodbox ul li:hover{	/*foodbox下面的li鼠标样式*/
+	border:1px solid #FF4883;
+}
+.foodbox-menu img{	/*foodbox-menu下面的图片样式*/
+	border:1px solid #DFDFDF;
+	height:136px;
+	width:224px;
+	margin:5px 2px;
+	position: relative;
+}
+.foodbox-menu i{	/*foodbox-menu下面的绝对定位的图片样式*/
+	height:48px;
+	width:46px;
+	background: url('../images/appointment.png') no-repeat;
+	position: absolute;
+	top:6px;
+	left:3px;
+}
+.foodbox-menu p{		/*foodbox-menu下面主文字样式*/
+	font-size:16px;
+	font-weight: bold;
+	color:#444444;
+	padding-top:10px;
+	padding-left:3px;
+}
+.foodbox-menu:hover p{		/*foodbox-menu下面主文字鼠标覆盖样式*/
+	color:#FF4883;
+}
+.foodbox ul li a:hover{		/*foodbox下面文字鼠标覆盖样式*/
+	text-decoration: none;
+}
+.foodbox-menu span{		/*foodbox-menu下面副文字样式*/
+	display: inline-block;
+	height:30px;
+	width:224px;
+	line-height: 21px;
+	padding:8px 0 15px 5px;
+}
+.foodbox ul li a:hover span{	/*foodbox-menu下面副文字鼠标覆盖样式*/
+	text-decoration: underline;
+}
+.foodbox ul li b{	/*foodbox下面图片上定位文字样式*/
+	height:36px;
+	line-height: 36px;
+	width:224px;
+	text-align: left;
+	background: #000;
+	position: absolute;
+	top:106px;
+	left:3px;
+	opacity: 0.7;
+	
+	display: none;
+	font-weight: normal;
+}
+.foodbox ul li b h5{	/*foodbox下面图片上定位文字样式*/
+	color:#fff;
+	padding-left:18px;
+}
+.foodbox-menu em{	/*foodbox下面图片上定位图片样式*/
+	position: absolute;
+	width:9px;
+	height:12px;
+	background: url('../images/coordinates.png') no-repeat;
+	top:119px;
+	left:7px;
+	display: none;
+	
+}
+.foodbox ul li:hover b{	/*foodbox下面图片上鼠标覆盖定位文字显现样式*/
+	display: block;
+}
+.foodbox ul li:hover em{		/*foodbox下面图片上鼠标覆盖定位图片显现样式*/
+	display: block;
+}
+.foodbox .cur{		/*foodbox下面特殊外边距样式*/
+	margin-left:0;
+}
+
+.foodbox-info{		/*foodbox-info整体样式*/
+	height:17px;
+	line-height: 17px;
+	width:224px;
+	margin-top:20px;
+	margin-left:4px;
+	position: relative;
+}
+.foodbox-info h3{	/*foodbox-info下面绝对定位文字样式*/
+	height:18px;
+	line-height: 18px;
+	padding:0 5px;
+	background: #FF4883;
+	color:#fff;
+	position: absolute;
+	top:-28px;
+	left:1px;
+}
+.foodbox-info h4{	/*foodbox-info下面左边文字样式*/
+	width:55px;
+	height:17px;
+	font-size: 19px;
+	color:#FF48A2;
+	display: inline-block;
+}
+.foodbox-info h5{	/*foodbox-info下面右边文字样式*/
+	color:#9E9E9E;
+	display: inline-block;
+
+}
+.foodbox-score{	/*foodbox-score整体样式*/
+	height:12px;
+	line-height: 12px;
+	width:220px;
+	margin-top:15px;
+	margin-left:4px;
+	color:#9E9E9E;
+}
+.foodbox-score h4{	/*foodbox-score 下面左边文字样式*/
+	float: left;
+	color: #005AA0;
+	display: inline-block;
+}
+.foodbox-score h5{	/*foodbox-score 下面右边文字样式*/
+	float: right;
+	display: inline-block;
+}
+
+.foodmore{		/*foodmore整体样式*/
+	height:35px;
+	line-height: 35px;
+	width:1208px;
+	float: left;
+	text-align: center;
+	border: 1px solid #DFDFDF;
+	background: #F5F5F5;
+	position: absolute;
+	bottom: 36px;
+	left:0;
+}
+.foodmore i{	/*foodmore定位图片样式*/
+	width:7px;
+	height:12px;
+	position: absolute;
+	background: url('../images/arrow-right.png') no-repeat;
+	bottom: 12px;
+	left:648px;
+}
+/*-   -美食    end--*/
+
+
+
+
+/*-   -娱乐   start--*/
+.enter{		/*enter整体样式*/
+	height:775px;
+	position: relative;
+}
+.entertitle{		/*entertitle整体样式*/
+	height:30px;
+	width:1210px;
+	
+}
+.entertitle-left{		/*entertitle左边整体样式*/
+	height:30px;
+	width:80px;
+}
+.entertitle-left i{		/*entertitle左边图片样式*/
+	width:21px;
+	height:21px;
+	background: url('../images/entertitle.png') no-repeat;
+	position: absolute;
+	top:5px;
+	left:0;
+}
+.entertitle-left p{		/*entertitle左边文字样式*/
+	height: 30px;
+	line-height: 30px;
+	margin-left:35px;
+	font-size:18px;
+	font-weight: bold;
+}
+.entertitle-right{		/*entertitle右边整体样式*/
+	height:30px;
+	width:367px;
+}
+.entertitle-right ul li{		/*entertitle右边单独li样式*/
+	float: left;
+	height:30px;
+	line-height: 30px;
+	color:#767676;
+}
+.entertitle-right ul li a{		/*entertitle右边单独li下面超链接样式*/
+	padding:0 14px;
+	color:#767676;
+}
+.entertitle-right ul li a:hover{		/*entertitle右边单独li下面超链接覆盖样式*/
+	color:#005AA0;
+}
+.entertitle-right i{		/*entertitle右边箭头样式*/
+	width:7px;
+	height:12px;
+	background: url('../images/arrow-right.png') no-repeat;
+	position: absolute;
+	top:9px;
+	right:5px;
+}
+
+.enterbox{		/*enterbox整体样式*/
+	height:700px;
+	position: relative;
+}
+.enterborder1{		/*绝对定位的竖线1整体样式*/
+	position: absolute;
+	display: inline-block;
+	width:1210px;
+	height:1px;
+	background:#DFDFDF;
+	top:327px;
+	left:0;
+}
+.enterbox ul li{		/*enterbox下面的li单独样式*/
+	float: left;
+	width:231px;
+	height:306px;
+	border:1px solid #fff;
+	margin:4px 0px 42px 11px;
+	position: relative;
+}
+.enterbox ul li:hover{		/*enterbox下面的li鼠标样式*/
+	border:1px solid #FF4883;
+}
+.enterbox-menu img{		/*enterbox-menu下面的图片样式*/
+	border:1px solid #DFDFDF;
+	height:136px;
+	width:224px;
+	margin:5px 2px;
+	position: relative;
+}
+.enterbox-menu i{		/*enterbox-menu下面的绝对定位的图片样式*/
+	height:48px;
+	width:46px;
+	background: url('../images/appointment.png') no-repeat;
+	position: absolute;
+	top:6px;
+	left:3px;
+}
+.enterbox-menu p{		/*enterbox-menu下面主文字样式*/
+	font-size:16px;
+	font-weight: bold;
+	color:#444444;
+	padding-top:10px;
+	padding-left:3px;
+}
+.enterbox-menu:hover p{		/*enterbox-menu下面主文字鼠标覆盖样式*/
+	color:#FF4883;
+}
+.enterbox ul li a:hover{		/*enterbox下面文字鼠标覆盖样式*/
+	text-decoration: none;
+}
+.enterbox-menu span{		/*enterbox-menu下面副文字样式*/
+	display: inline-block;
+	height:30px;
+	width:224px;
+	line-height: 21px;
+	padding:8px 0 15px 5px;
+}
+.enterbox ul li a:hover span{		/*enterbox-menu下面副文字鼠标覆盖样式*/
+	text-decoration: underline;
+}
+.enterbox ul li b{		/*enterbox下面图片上定位文字样式*/
+	height:36px;
+	line-height: 36px;
+	width:224px;
+	text-align: left;
+	background: #000;
+	position: absolute;
+	top:106px;
+	left:3px;
+	opacity: 0.7;
+	
+	display: none;
+	font-weight: normal;
+}
+.enterbox ul li b h5{		/*enterbox下面图片上定位文字样式*/
+	color:#fff;
+	padding-left:18px;
+}
+.enterbox-menu em{		/*enterbox-menu下面图片上定位图片样式*/
+	position: absolute;
+	width:9px;
+	height:12px;
+	background: url('../images/coordinates.png') no-repeat;
+	top:119px;
+	left:7px;
+	display: none;
+	
+}
+.enterbox ul li:hover b{		/*enterbox下面图片上鼠标覆盖定位文字显现样式*/
+	display: block;
+}
+.enterbox ul li:hover em{/*enterbox下面图片上鼠标覆盖定位图片显现样式*/
+	display: block;		
+}
+.enterbox .cur{		/*enterbox下面特殊外边距样式*/
+	margin-left:0;
+}
+
+.enterbox-info{		/*enterbox-info整体样式*/
+	height:17px;
+	line-height: 17px;
+	width:224px;
+	margin-top:20px;
+	margin-left:4px;
+	position: relative;
+}
+.enterbox-info h3{		/*enterbox-info下面绝对定位文字样式*/
+	height:18px;
+	line-height: 18px;
+	padding:0 5px;
+	background: #FF4883;
+	color:#fff;
+	position: absolute;
+	top:-28px;
+	left:1px;
+}
+.enterbox-info h4{		/*enterbox-info下面左边文字样式*/
+	width:55px;
+	height:17px;
+	font-size: 19px;
+	color:#FF48A2;
+	display: inline-block;
+}
+.enterbox-info h5{	/*enterbox-info下面右边文字样式*/
+	color:#9E9E9E;		
+	display: inline-block;
+
+}
+.enterbox-score{		/*enterbox-score整体样式*/
+	height:12px;
+	line-height: 12px;
+	width:220px;
+	margin-top:15px;
+	margin-left:4px;
+	color:#9E9E9E;
+}
+.enterbox-score h4{		/*enterbox-score 下面左边文字样式*/
+	float: left;
+	color: #005AA0;
+	display: inline-block;
+}
+.enterbox-score h5{		/*enterbox-score 下面右边文字样式*/
+	float: right;
+	display: inline-block;
+}
+
+.entermore{		/*entermore整体样式*/
+	height:35px;
+	line-height: 35px;
+	width:1208px;
+	float: left;
+	text-align: center;
+	border: 1px solid #DFDFDF;
+	background: #F5F5F5;
+	position: absolute;
+	bottom: 28px;
+	left:0;
+}
+.entermore i{		/*entermore定位图片样式*/
+	width:7px;
+	height:12px;
+	position: absolute;
+	background: url('../images/arrow-right.png') no-repeat;
+	bottom: 12px;
+	left:648px;
+}
+/*-   -娱乐    end--*/
+
+
+
+
+
+
+/*-   -生活   start--*/
+.life{			/*life整体样式*/	
+	height:775px;
+	position: relative;
+}
+.lifetitle{				/*lifetitle整体样式*/
+	height:30px;
+	width:1210px;
+	
+}
+.lifetitle-left{		/*lifetitle左边整体样式*/		
+	height:30px;
+	width:80px;
+}
+.lifetitle-left i{		/*lifetitle左边图片样式*/		
+	width:21px;
+	height:21px;
+	background: url('../images/lifetitle.png') no-repeat;
+	position: absolute;
+	top:5px;
+	left:0;
+}
+.lifetitle-left p{		/*lifetitle左边文字样式*/		
+	height: 30px;
+	line-height: 30px;
+	margin-left:35px;
+	font-size:18px;
+	font-weight: bold;
+}
+
+.lifetitle-right ul li{				/*lifetitle右边单独li样式*/	
+	float: left;
+	height:30px;
+	line-height: 30px;
+	color:#767676;
+}
+.lifetitle-right ul li a{		/*lifetitle右边单独li下面超链接样式*/	
+	padding:0 18px;
+	color:#767676;
+}
+.lifetitle-right ul li a:hover{		/*lifetitle右边单独li下面超链接覆盖样式*/		
+	color:#005AA0;
+}
+.lifetitle-right i{			/*lifetitle右边箭头样式*/	
+	width:7px;
+	height:12px;
+	background: url('../images/arrow-right.png') no-repeat;
+	position: absolute;
+	top:9px;
+	right:5px;
+}
+
+.lifebox{			/*lifebox整体样式*/
+	height:700px;	
+	position: relative;
+}
+.lifeborder1{				/*绝对定位的竖线1整体样式*/
+	position: absolute;
+	display: inline-block;
+	width:1210px;
+	height:1px;
+	background:#DFDFDF;
+	top:327px;
+	left:0;
+}
+.lifebox ul li{			/*lifebox下面的li单独样式*/
+	float: left;
+	width:231px;
+	height:306px;
+	border:1px solid #fff;
+	margin:4px 0px 42px 11px;
+	position: relative;
+}
+.lifebox ul li:hover{		/*lifebox下面的li鼠标样式*/	
+	border:1px solid #FF4883;
+}
+.lifebox-menu img{			/*lifebox-menu下面的图片样式*/
+	border:1px solid #DFDFDF;
+	height:136px;
+	width:224px;
+	margin:5px 2px;
+	position: relative;
+}
+.lifebox-menu i{		/*lifebox-menu下面的绝对定位的图片样式*/	
+	height:48px;
+	width:46px;
+	background: url('../images/appointment.png') no-repeat;
+	position: absolute;
+	top:6px;
+	left:3px;
+}
+.lifebox-menu p{		/*lifebox-menu下面主文字样式*/	
+	font-size:16px;
+	font-weight: bold;
+	color:#444444;
+	padding-top:10px;
+	padding-left:3px;
+}
+.lifebox-menu:hover p{		/*lifebox-menu下面主文字鼠标覆盖样式*/	
+	color:#FF4883;
+}
+.lifebox ul li a:hover{		/*lifebox下面文字鼠标覆盖样式*/
+	text-decoration: none;			
+}
+.lifebox-menu span{		/*lifebox-menu下面副文字样式*/
+	display: inline-block;
+	height:30px;
+	width:224px;
+	line-height: 21px;
+	padding:8px 0 15px 5px;
+}
+.lifebox ul li a:hover span{		/*lifebox-menu下面副文字鼠标覆盖样式*/	
+	text-decoration: underline;
+}
+.lifebox ul li b{/*lifebox下面图片上定位文字样式*/
+	height:36px;			
+	line-height: 36px;
+	width:224px;
+	text-align: left;
+	background: #000;
+	position: absolute;
+	top:106px;
+	left:3px;
+	opacity: 0.7;
+	
+	display: none;
+	font-weight: normal;
+}
+.lifebox ul li b h5{	/*lifebox下面图片上定位文字样式*/		
+	color:#fff;
+	padding-left:18px;
+}
+.lifebox-menu em{		/*lifebox-menu下面图片上定位图片样式*/	
+	position: absolute;
+	width:9px;
+	height:12px;
+	background: url('../images/coordinates.png') no-repeat;
+	top:119px;
+	left:7px;
+	display: none;
+	
+}
+.lifebox ul li:hover b{		/*lifebox下面图片上鼠标覆盖定位文字显现样式*/	
+	display: block;
+}
+.lifebox ul li:hover em{	/*lifebox下面图片上鼠标覆盖定位图片显现样式*/		
+	display: block;
+}
+.lifebox .cur{		/*lifebox下面特殊外边距样式*/	
+	margin-left:0;
+}
+
+.lifebox-info{			/*lifebox-info整体样式*/
+	height:17px;
+	line-height: 17px;
+	width:224px;
+	margin-top:20px;
+	margin-left:4px;
+	position: relative;
+}
+.lifebox-info h3{		/*lifebox-info下面绝对定位文字样式*/	
+	height:18px;
+	line-height: 18px;
+	padding:0 5px;
+	background: #FF4883;
+	color:#fff;
+	position: absolute;
+	top:-23px;
+	left:1px;
+}
+.lifebox-info h4{		/*lifebox-info下面左边文字样式*/	
+	width:60px;
+	height:17px;
+	font-size: 19px;
+	color:#FF48A2;
+	display: inline-block;
+}
+.lifebox-info h5{		/*lifebox-info下面右边文字样式*/	
+	color:#9E9E9E;
+	display: inline-block;
+
+}
+.lifebox-score{			/*lifebox-score整体样式*/
+	height:12px;
+	line-height: 12px;
+	width:220px;
+	margin-top:15px;
+	margin-left:4px;
+	color:#9E9E9E;
+}
+.lifebox-score h4{		/*lifebox-score 下面左边文字样式*/	
+	float: left;
+	color: #005AA0;
+	display: inline-block;
+}
+.lifebox-score h5{		/*lifebox-score 下面右边文字样式*/	
+	float: right;
+	display: inline-block;
+}
+
+.lifemore{			/*lifemore整体样式*/
+	height:35px;
+	line-height: 35px;
+	width:1208px;
+	float: left;
+	text-align: center;
+	border: 1px solid #DFDFDF;
+	background: #F5F5F5;
+	position: absolute;
+	bottom: 28px;
+	left:0;
+}
+.lifemore i{		/*lifemore定位图片样式*/	
+	width:7px;
+	height:12px;
+	position: absolute;
+	background: url('../images/arrow-right.png') no-repeat;
+	bottom: 12px;
+	left:648px;
+}
+/*-   -生活    end--*/
+
+
+
+
+
+/*-   -酒店   start--*/
+.hotel{		/*hotel整体样式*/	
+	height:775px;
+	position: relative;
+}
+.hoteltitle{		/*hoteltitle整体样式*/
+	height:30px;
+	width:1210px;
+	
+}
+.hoteltitle-left{		/*hoteltitle左边整体样式*/	
+	height:30px;
+	width:80px;
+}
+.hoteltitle-left i{		/*hoteltitle左边图片样式*/		
+	width:21px;
+	height:21px;
+	background: url('../images/hoteltitle.png') no-repeat;
+	position: absolute;
+	top:5px;
+	left:0;
+}
+.hoteltitle-left p{		/*hoteltitle左边文字样式*/	
+	height: 30px;
+	line-height: 30px;
+	margin-left:35px;
+	font-size:18px;
+	font-weight: bold;
+}
+
+.hoteltitle-right ul li{		/*hoteltitle右边单独li样式*/	
+	float: left;
+	height:30px;
+	line-height: 30px;
+	color:#767676;
+}
+.hoteltitle-right ul li a{		/*hoteltitle右边单独li下面超链接样式*/	
+	padding:0 18px;
+	color:#767676;
+}
+.hoteltitle-right ul li a:hover{		/*hoteltitle右边单独li下面超链接覆盖样式*/	
+	color:#005AA0;
+}
+.hoteltitle-right i{		/*hoteltitle右边箭头样式*/	
+	width:7px;
+	height:12px;
+	background: url('../images/arrow-right.png') no-repeat;
+	position: absolute;
+	top:9px;
+	right:5px;
+}
+
+.hotelbox{		/*hotelbox整体样式*/
+	height:700px;
+	position: relative;
+}
+.hotelborder1{		/*绝对定位的竖线1整体样式*/
+	position: absolute;
+	display: inline-block;
+	width:1210px;
+	height:1px;
+	background:#DFDFDF;
+	top:327px;
+	left:0;
+}
+.hotelbox ul li{		/*hotelbox下面的li单独样式*/
+	float: left;
+	width:231px;
+	height:306px;
+	border:1px solid #fff;
+	margin:4px 0px 42px 11px;
+	position: relative;
+}
+.hotelbox ul li:hover{		/*hotelbox下面的li鼠标样式*/	
+	border:1px solid #FF4883;
+}
+.hotelbox-menu img{		/*hotelbox-menu下面的图片样式*/
+	border:1px solid #DFDFDF;
+	height:136px;
+	width:224px;
+	margin:5px 2px;
+	position: relative;
+}
+.hotelbox-menu i{		/*hotelbox-menu下面的绝对定位的图片样式*/	
+	height:48px;
+	width:46px;
+	background: url('../images/appointment.png') no-repeat;
+	position: absolute;
+	top:6px;
+	left:3px;
+}
+.hotelbox-menu p{		/*hotelbox-menu下面主文字样式*/
+	font-size:16px;
+	font-weight: bold;
+	color:#444444;
+	padding-top:10px;
+	padding-left:3px;
+}
+.hotelbox-menu:hover p{		/*hotelbox-menu下面主文字鼠标覆盖样式*/
+	color:#FF4883;
+}
+.hotelbox ul li a:hover{		/*hotelbox下面文字鼠标覆盖样式*/
+	text-decoration: none;
+}
+.hotelbox-menu span{		/*hotelbox-menu下面副文字样式*/
+	display: inline-block;
+	height:30px;
+	width:224px;
+	line-height: 21px;
+	padding:8px 0 15px 5px;
+}
+.hotelbox ul li a:hover span{		/*hotelbox-menu下面副文字鼠标覆盖样式*/
+	text-decoration: underline;
+}
+.hotelbox ul li b{		/*hotelbox下面图片上定位文字样式*/
+	height:36px;
+	line-height: 36px;
+	width:224px;
+	text-align: left;
+	background: #000;
+	position: absolute;
+	top:106px;
+	left:3px;
+	opacity: 0.7;
+	
+	display: none;
+	font-weight: normal;
+}
+.hotelbox ul li b h5{		/*hotelbox下面图片上定位文字样式*/
+	color:#fff;
+	padding-left:18px;
+}
+.hotelbox-menu em{		/*hotelbox-menu下面图片上定位图片样式*/
+	position: absolute;
+	width:9px;
+	height:12px;
+	background: url('../images/coordinates.png') no-repeat;
+	top:119px;
+	left:7px;
+	display: none;
+	
+}
+.hotelbox ul li:hover b{		/*hotelbox下面图片上鼠标覆盖定位文字显现样式*/
+	display: block;
+}
+.hotelbox ul li:hover em{		/*hotelbox下面图片上鼠标覆盖定位图片显现样式*/
+	display: block;
+}
+.hotelbox .cur{		/*hotelbox下面特殊外边距样式*/
+	margin-left:0;
+}
+
+.hotelbox-info{		/*hotelbox-info整体样式*/
+	height:17px;
+	line-height: 17px;
+	width:224px;
+	margin-top:20px;
+	margin-left:4px;
+	position: relative;
+}
+.hotelbox-info h3{		/*hotelbox-info下面绝对定位文字样式*/
+	height:18px;
+	line-height: 18px;
+	padding:0 5px;
+	background: #FF4883;
+	color:#fff;
+	position: absolute;
+	top:-23px;
+	left:1px;
+}
+.hotelbox-info h4{		/*hotelbox-info下面左边文字样式*/
+	width:60px;
+	height:17px;
+	font-size: 19px;
+	color:#FF48A2;
+	display: inline-block;
+}
+.hotelbox-info h5{		/*hotelbox-info下面右边文字样式*/
+	color:#9E9E9E;
+	display: inline-block;
+
+}
+.hotelbox-score{		/*hotelbox-score整体样式*/
+	height:12px;
+	line-height: 12px;
+	width:220px;
+	margin-top:15px;
+	margin-left:4px;
+	color:#9E9E9E;
+}
+.hotelbox-score h4{		/*hotelbox-score 下面左边文字样式*/
+	float: left;
+	color: #005AA0;
+	display: inline-block;
+}
+.hotelbox-score h5{		/*hotelbox-score 下面右边文字样式*/
+	float: right;
+	display: inline-block;
+}
+
+.hotelmore{
+	height:35px;		/*hotelmore整体样式*/
+	line-height: 35px;
+	width:1208px;
+	float: left;
+	text-align: center;
+	border: 1px solid #DFDFDF;
+	background: #F5F5F5;
+	position: absolute;
+	bottom: 28px;
+	left:0;
+}
+.hotelmore i{		/*hotelmore定位图片样式*/
+	width:7px;
+	height:12px;
+	position: absolute;
+	background: url('../images/arrow-right.png') no-repeat;
+	bottom: 12px;
+	left:648px;
+}
+/*-   -酒店    end--*/
+
+
+
+
+/*-   -本地   start--*/
+.local{			/*local整体样式*/	
+	height:775px;
+	position: relative;
+}
+.localtitle{			/*localtitle整体样式*/
+	height:30px;
+	width:1210px;
+	
+}
+.localtitle-left{			/*localtitle左边整体样式*/	
+	height:30px;
+	width:80px;
+}
+.localtitle-left i{			/*localtitle左边图片样式*/		
+	width:21px;
+	height:21px;
+	background: url('../images/localtitle.png') no-repeat;
+	position: absolute;
+	top:5px;
+	left:0;
+}
+.localtitle-left p{			/*localtitle左边文字样式*/	
+	height: 30px;
+	line-height: 30px;
+	margin-left:35px;
+	font-size:18px;
+	font-weight: bold;
+}
+
+.localtitle-right ul li{			/*localtitle右边单独li样式*/	
+	float: left;
+	height:30px;
+	line-height: 30px;
+	color:#767676;
+}
+.localtitle-right ul li a{			/*localtitle右边单独li下面超链接样式*/	
+	padding:0 18px;
+	color:#767676;
+}
+.localtitle-right ul li a:hover{
+	color:#005AA0;
+}
+.localtitle-right i{			/*localtitle右边单独li下面超链接覆盖样式*/	
+	width:7px;
+	height:12px;
+	background: url('../images/arrow-right.png') no-repeat;
+	position: absolute;
+	top:9px;
+	right:5px;
+}
+
+.localbox{			/*localtitle右边箭头样式*/	
+	height:700px;
+	position: relative;
+}
+.localborder1{			/*localbox整体样式*/
+	position: absolute;
+	display: inline-block;
+	width:1210px;
+	height:1px;
+	background:#DFDFDF;
+	top:327px;
+	left:0;
+}
+.localbox ul li{			/*绝对定位的竖线1整体样式*/
+	float: left;
+	width:231px;
+	height:306px;
+	border:1px solid #fff;
+	margin:4px 0px 42px 11px;
+	position: relative;
+}
+.localbox ul li:hover{			/*localbox下面的li单独样式*/
+	border:1px solid #FF4883;
+}
+.localbox-menu img{			/*localbox下面的li鼠标样式*/	
+	border:1px solid #DFDFDF;
+	height:136px;
+	width:224px;
+	margin:5px 2px;
+	position: relative;
+}
+.localbox-menu i{			/*localbox-menu下面的图片样式*/
+	height:48px;
+	width:46px;
+	background: url('../images/appointment.png') no-repeat;
+	position: absolute;
+	top:6px;
+	left:3px;
+}
+.localbox-menu p{		/*localbox-menu下面主文字样式*/	
+	font-size:16px;
+	font-weight: bold;
+	color:#444444;
+	padding-top:10px;
+	padding-left:3px;
+}
+.localbox-menu:hover p{			/*localbox-menu下面主文字鼠标覆盖样式*/
+	color:#FF4883;
+}
+.localbox ul li a:hover{		/*localbox下面文字鼠标覆盖样式*/	
+	text-decoration: none;
+}
+.localbox-menu span{		/*localbox-menu下面副文字样式*/	
+	display: inline-block;
+	height:30px;
+	width:224px;
+	line-height: 21px;
+	padding:8px 0 15px 5px;
+}
+.localbox ul li a:hover span{		/*localbox-menu下面副文字鼠标覆盖样式*/	
+	text-decoration: underline;
+}
+.localbox ul li b{		/*localbox下面图片上定位文字样式*/
+	height:36px;
+	line-height: 36px;
+	width:224px;
+	text-align: left;
+	background: #000;
+	position: absolute;
+	top:106px;
+	left:3px;
+	opacity: 0.7;
+	
+	display: none;
+	font-weight: normal;
+}
+.localbox ul li b h5{/*localbox下面图片上定位文字样式*/
+	color:#fff;		
+	padding-left:18px;
+}
+.localbox-menu em{/*localbox-menu下面图片上定位图片样式*/
+	position: absolute;
+	width:9px;
+	height:12px;
+	background: url('../images/coordinates.png') no-repeat;
+	top:119px;
+	left:7px;
+	display: none;
+	
+}
+.localbox ul li:hover b{	/*localbox下面图片上鼠标覆盖定位文字显现样式*/	
+	display: block;
+}
+.hotelbox ul li:hover em{		/*localbox下面图片上鼠标覆盖定位图片显现样式*/
+	display: block;
+}
+.localbox .cur{		/*localbox下面特殊外边距样式*/
+	margin-left:0;
+}
+
+.localbox-info{		/*localbox-info整体样式*/
+	height:17px;
+	line-height: 17px;
+	width:224px;
+	margin-top:20px;
+	margin-left:4px;
+	position: relative;
+}
+.localbox-info h3{		/*localbox-info下面绝对定位文字样式*/
+	height:18px;
+	line-height: 18px;
+	padding:0 5px;
+	background: #FF4883;
+	color:#fff;
+	position: absolute;
+	top:-23px;
+	left:1px;
+}
+.localbox-info h4{		/*localbox-info下面左边文字样式*/
+	width:60px;
+	height:17px;
+	font-size: 19px;
+	color:#FF48A2;
+	display: inline-block;
+}
+.localbox-info h5{		/*localbox-info下面右边文字样式*/
+	color:#9E9E9E;
+	display: inline-block;
+
+}
+.localbox-score{		/*localbox-score整体样式*/
+	height:12px;
+	line-height: 12px;
+	width:220px;
+	margin-top:15px;
+	margin-left:4px;
+	color:#9E9E9E;
+}
+.localbox-score h4{		/*localbox-score 下面左边文字样式*/
+	float: left;
+	color: #005AA0;
+	display: inline-block;
+}
+.localbox-score h5{		/*localbox-score 下面右边文字样式*/
+	float: right;
+	display: inline-block;
+}
+
+.localmore{		/*localmore整体样式*/
+	height:35px;
+	line-height: 35px;
+	width:1208px;
+	float: left;
+	text-align: center;
+	border: 1px solid #DFDFDF;
+	background: #F5F5F5;
+	position: absolute;
+	bottom: 28px;
+	left:0;
+}
+.localmore i{		/*localmore定位图片样式*/
+	width:7px;
+	height:12px;
+	position: absolute;
+	background: url('../images/arrow-right.png') no-repeat;
+	bottom: 12px;
+	left:648px;
+}
+/*-   -本地    end--*/
+
+
+
+
+/*-   -丽人   start--*/
+.beauty{	/*beauty整体样式*/	
+	height:775px;
+	position: relative;
+}
+.beautytitle{	/*beautytitle整体样式*/
+	height:30px;
+	width:1210px;
+	
+}
+.beautytitle-left{	/*beautytitle左边整体样式*/	
+	height:30px;
+	width:80px;
+}
+.beautytitle-left i{	/*beautytitle左边图片样式*/		
+	width:21px;
+	height:21px;
+	background: url('../images/beautytitle.png') no-repeat;
+	position: absolute;
+	top:5px;
+	left:0;
+}
+.beautytitle-left p{	/*beautytitle左边文字样式*/	
+	height: 30px;
+	line-height: 30px;
+	margin-left:35px;
+	font-size:18px;
+	font-weight: bold;
+}
+
+.beautytitle-right ul li{	/*beautytitle右边单独li样式*/	
+	float: left;
+	height:30px;
+	line-height: 30px;
+	color:#767676;
+}
+.beautytitle-right ul li a{	/*beautytitle右边单独li下面超链接样式*/	
+	padding:0 18px;
+	color:#767676;
+}
+.beautytitle-right ul li a:hover{	/*beautytitle右边单独li下面超链接覆盖样式*/	
+	color:#005AA0;
+}
+.beautytitle-right i{	/*beautytitle右边箭头样式*/	
+	width:7px;
+	height:12px;
+	background: url('../images/arrow-right.png') no-repeat;
+	position: absolute;
+	top:9px;
+	right:5px;
+}
+
+.beautybox{	/*beautybox整体样式*/
+	height:700px;
+	position: relative;
+}
+.beautyborder1{	/*绝对定位的竖线1整体样式*/
+	position: absolute;
+	display: inline-block;
+	width:1210px;
+	height:1px;
+	background:#DFDFDF;
+	top:327px;
+	left:0;
+}
+.beautybox ul li{	/*beautybox下面的li单独样式*/
+	float: left;
+	width:231px;
+	height:306px;
+	border:1px solid #fff;
+	margin:4px 0px 42px 11px;
+	position: relative;
+}
+.beautybox ul li:hover{	/*beautybox下面的li鼠标样式*/	
+	border:1px solid #FF4883;
+}
+.beautybox-menu img{	/*beautybox-menu下面的图片样式*/
+	border:1px solid #DFDFDF;
+	height:136px;
+	width:224px;
+	margin:5px 2px;
+	position: relative;
+}
+.beautybox-menu i{	/*beautybox-menu下面的绝对定位的图片样式*/	
+	height:48px;
+	width:46px;
+	background: url('../images/appointment.png') no-repeat;
+	position: absolute;
+	top:6px;
+	left:3px;
+}
+.beautybox-menu p{	/*beautybox-menu下面主文字样式*/
+	font-size:16px;
+	font-weight: bold;
+	color:#444444;
+	padding-top:10px;
+	padding-left:3px;
+}
+.beautybox-menu:hover p{	/*beautybox-menu下面主文字鼠标覆盖样式*/
+	color:#FF4883;
+}
+.beautybox ul li a:hover{	/*beautybox下面文字鼠标覆盖样式*/
+	text-decoration: none;
+}
+.beautybox-menu span{	/*beautybox-menu下面副文字样式*/
+	display: inline-block;
+	height:30px;
+	width:224px;
+	line-height: 21px;
+	padding:8px 0 15px 5px;
+}
+.beautybox ul li a:hover span{		/*enterbox-menu下面副文字鼠标覆盖样式*/
+	text-decoration: underline;
+}
+.beautybox ul li b{		/*enterbox下面图片上定位文字样式*/
+	height:36px;
+	line-height: 36px;
+	width:224px;
+	text-align: left;
+	background: #000;
+	position: absolute;
+	top:106px;
+	left:3px;
+	opacity: 0.7;
+	
+	display: none;
+	font-weight: normal;
+}
+.beautybox ul li b h5{		/*enterbox下面图片上定位文字样式*/
+	color:#fff;
+	padding-left:18px;
+}
+.beautybox-menu em{		/*enterbox-menu下面图片上定位图片样式*/
+	position: absolute;
+	width:9px;
+	height:12px;
+	background: url('../images/coordinates.png') no-repeat;
+	top:119px;
+	left:7px;
+	display: none;
+	
+}
+.beautybox ul li:hover b{		/*beautybox下面图片上鼠标覆盖定位文字显现样式*/
+	display: block;		
+}
+.beautybox ul li:hover em{		/*beautybox下面图片上鼠标覆盖定位图片显现样式*/
+	display: block;
+}
+.beautybox .cur{		/*beautybox下面特殊外边距样式*/
+	margin-left:0;
+}
+
+.beautybox-info{		/*beautybox-info整体样式*/
+	height:17px;
+	line-height: 17px;
+	width:224px;
+	margin-top:20px;
+	margin-left:4px;
+	position: relative;
+}		
+.beautybox-info h3{		/*beautybox-info下面绝对定位文字样式*/
+	height:18px;
+	line-height: 18px;
+	padding:0 5px;
+	background: #FF4883;
+	color:#fff;
+	position: absolute;
+	top:-23px;
+	left:1px;
+}
+.beautybox-info h4{		/*beautybox-info下面左边文字样式*/
+	width:60px;
+	height:17px;
+	font-size: 19px;
+	color:#FF48A2;
+	display: inline-block;
+}
+.beautybox-info h5{		/*beautybox-info下面右边文字样式*/
+	color:#9E9E9E;
+	display: inline-block;
+
+}
+.beautybox-score{		/*beautybox-score整体样式*/
+	height:12px;
+	line-height: 12px;
+	width:220px;
+	margin-top:15px;
+	margin-left:4px;
+	color:#9E9E9E;
+}
+.beautybox-score h4{		/*beautybox-score 下面左边文字样式*/
+	float: left;
+	color: #005AA0;
+	display: inline-block;
+}
+.beautybox-score h5{		/*beautybox-score 下面右边文字样式*/
+	float: right;
+	display: inline-block;
+}
+
+.beautymore{		/*beautymore整体样式*/
+	height:35px;
+	line-height: 35px;
+	width:1208px;
+	float: left;
+	text-align: center;
+	border: 1px solid #DFDFDF;
+	background: #F5F5F5;
+	position: absolute;
+	bottom: 28px;
+	left:0;
+}
+.beautymore i{		/*beautymore定位图片样式*/
+	width:7px;
+	height:12px;
+	position: absolute;
+	background: url('../images/arrow-right.png') no-repeat;
+	bottom: 12px;
+	left:648px;
+}
+/*-   -本地    end--*/
+
+
+

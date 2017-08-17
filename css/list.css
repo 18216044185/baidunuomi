@@ -1,0 +1,868 @@
+@charset "utf-8";
+/* list.css */
+
+/*-------------娱乐导航栏  ------------start*/
+.enternav{				/*itemnav整体样式*/
+	height:40px;
+	padding-bottom:12px;
+	padding-top:10px;
+}
+.entertotal{				/*"全部"一栏样式*/
+	height:52px;
+	width:120px;
+}
+.entertotal .entertotal-all{		/*"全部"字体样式*/	
+	height:19px;
+	width:40px;
+	line-height: 19px;
+	text-align:center;
+	display: inline-block;
+	border:1px solid #BDBDBD;
+	font-size:10px;
+}
+.entertotal .entertotal-all a{
+	color:#333333;
+}
+.entertotal .entertotal-all a:hover{		/*"全部"鼠标覆盖上去字体样式*/	
+	color:#666666;
+	text-decoration: none;
+}
+.entertotal-cate .icon-tri{		/*三角图标*/	
+	border:3px solid transparent;
+	border-top-color:#666;
+	width: 0;
+	height: 0;
+	display: inline-block;
+	position: absolute;
+	top:8px;
+	right:3px;
+}
+.entertotal-cate{    		/*表示有下拉内容的div*/
+	display: inline-block;
+	position :relative;
+}
+.entertotal-cate .entertotal-cate-a{   		/*表示有下拉内容的a*/
+	height:19px;
+	width:48px;
+	line-height: 19px;
+	text-align:center;
+	margin-top:12px;
+	color:#333333;
+	display: inline-block;
+	border:1px solid #BDBDBD;
+	font-size:10px;
+	position :relative;
+	z-index:3;
+	background: #fff;
+}
+.entertotalmenu{  		/*表示下拉内容*/
+	display: none; /*默认隐藏*/
+	border:1px solid #FF5E89;
+	width:253px;
+	position:absolute;
+	top:31px;
+	left:0px;
+	background:#fff;
+	z-index:2;
+}
+.icon-tri1{				/*三角图标*/	
+	border:4px solid transparent;
+	border-top-color:#999999;
+	width: 0;
+	height: 0;
+	display: inline-block;
+	position: absolute;
+	top:8px;
+	right:3px;
+}
+
+.entertotalmenu ul li{	/*itemtotalmenu里面的每个li的样式*/
+	font-size:12px;
+	float:left;
+	color:#DDDDDD;
+	padding:10px 0;
+}
+.entertotalmenu a{		/*itemtotalmenu里面的a的左右外边距*/
+	padding-left:10px;
+	padding-right:10px;
+	line-height: 25px;
+	color: #666666;
+}
+.entertotalmenu a.cur{
+	color:#FF4883;
+}
+.entertotal-cate:hover .entertotalmenu{			/*2.把itemtotalmenu显示出来*/
+	display: block;
+}
+.entertotal-cate:hover .entertotal-cate-a{	/*2.把itemtotal-cate-a下边框去掉*/
+	border-bottom:none;
+	text-decoration: none;
+	border:1px solid #FF5E89;
+}
+.entertotal-cate:hover .icon-tri1{  /*3.更改三角形*/
+	border:4px solid transparent;
+	border-bottom-color:#FF5E89;
+	top:4px;
+}
+.entertotal-cate:hover .entertotal-cate-a{
+	color:#333333;
+	border-bottom:0;
+}
+.entertotalmenu a:hover{		
+	color:#005AA0;
+}
+/*-------------娱乐导航栏  ------------end*/
+
+
+
+
+
+/*-----------娱乐导航栏详细选项  start-----------------*/
+.enteroption{
+	height:285px;
+	border:1px solid #F0F0F0;
+}
+.enterclass{
+	width:1188px;
+	height:100px;
+	margin-left:20px;
+	border-bottom: 1px solid #F0F0F0;
+}
+.enterclass-box{
+	height:81px;
+	width:49px;
+	margin-top:19px;
+	float: left;
+	font-size: 14px;
+	color: #956666;
+	font-weight: bold;
+}
+
+.enterclass-all{
+	height:83px;
+	width:55px;
+	margin-top:17px;
+	float: left;
+}
+.enterclass-all a{
+	float: left;
+	width:31px;
+	height:20px;
+	font-size: 12px;
+	line-height: 20px;
+	text-align: center;
+	background: #FF5E89;
+	color:#fff;
+}
+.enterclass-all a:hover{
+	color: #fff;
+}
+.enterclass-specific{
+	height:83px;
+	width:1084px;
+	margin-top:17px;
+	float: left;
+}
+.enterclass-specific ul li{
+	float: left;
+}
+.enterclass-specific a{
+	font-size: 12px;
+	height:25px;
+	line-height: 25px;
+	width:96px;
+	padding-left:10px;
+	float: left;
+}
+
+
+
+
+
+.enterarea{
+	width:1188px;
+	height:119px;
+	margin-left:20px;
+}
+.enterarea-box{
+	height:81px;
+	width:49px;
+	margin-top:19px;
+	float: left;
+	font-size: 14px;
+	color: #956666;
+	font-weight: bold;
+}
+
+.enterarea-all{
+	height:83px;
+	width:45px;
+	margin-top:17px;
+	float: left;
+}
+.enterarea-all a{
+	float: left;
+	width:31px;
+	height:20px;
+	font-size: 12px;
+	line-height: 20px;
+	text-align: center;
+	background: #FF5E89;
+	color:#fff;
+	
+	background: #FF5E89;
+	color:#fff;
+}
+.enterarea-all a:hover{
+	color: #fff;
+}
+.enterarea-specific{
+	height:83px;
+	width:1082px;
+	margin-top:17px;
+	float: left;
+}
+.enterarea-specific-title{
+	height:20px;
+	width:1082px;
+	float: left;
+}
+.enterarea-specific-title a{
+	font-size: 12px;
+	height:20px;
+	line-height: 20px;
+	width:85px;
+	padding-left:20px;
+	float: left;
+	vertical-align: top;
+}
+.enterarea-specific-title a:hover{
+	text-decoration: none;
+	color:#666;
+}
+.enterarea-specific-title .cur{
+	font-weight: bold;
+}
+.enterarea-specific ul{
+	height:71px;
+	width:1082px;
+	background: #FBFBFB;
+	border: 1px solid #F3F3F3;
+	float: left;
+	margin-top:9px;
+	position: relative;
+}
+.enterarea-specific ul i{
+	border:10px solid transparent;
+	border-bottom-color:#FAFAFA;
+	width: 0;
+	height: 0;
+	display: inline-block;
+	position: absolute;
+	top:-16px;
+	left:142px;
+	z-index: 2;
+}
+.enterarea-specific-ul li{
+	float: left;
+}
+.enterarea-specific-ul a{
+	font-size: 12px;
+	height:25px;
+	line-height: 35px;
+	width:86px;
+	padding-left:20px;
+	float: left;
+}
+
+
+
+
+.enterprice{
+	width:1168px;
+	height:31px;
+	margin-left:20px;
+	margin-top:25px;
+}
+.enterprice-box{
+	height:31px;
+	width:49px;
+	float: left;
+	font-size: 14px;
+	color: #956666;
+	font-weight: bold;
+}
+
+.enterprice-all{
+	height:31px;
+	width:42px;
+	float: left;
+}
+.enterprice-all a{
+	float: left;
+	width:31px;
+	height:20px;
+	font-size: 12px;
+	line-height: 20px;
+	text-align: center;
+	background: #FF5E89;
+	color:#fff;
+}
+.enterprice-all a:hover{
+	color: #fff;
+}
+.enterprice-specific{
+	height:31px;
+	width:973px;
+	float: left;
+	margin-top:5px;
+}
+.enterprice-specific ul li{
+	float: left;
+}
+.enterprice-specific a{
+	font-size: 12px;
+	height:25px;
+	width:91px;
+	padding-left:16px;
+	float: left;
+}
+
+
+/*--------------娱乐导航栏详细选项  end----------------*/
+
+
+
+
+/*-  --------------------- -默认   start--------------*/
+.enterdefault{
+	height:41px;
+	padding-top:21px;
+	padding-bottom: 20px;
+}
+.enterdefaultbox{
+	height:41px;
+	width:66px;
+	line-height: 41px;
+	text-align: center;
+	color: #FF4883;
+	float: left;
+	border-top:1px solid #DFDFDF;
+	border-left:1px solid #DFDFDF;
+}
+
+.enterdefault-menu{
+	height:41px;
+	width:1141px;
+	float: left;
+	background: #F5F5F5;
+	border:1px solid #DFDFDF;
+}
+.enterdefault-menu ul li{
+	float: left;
+}
+.enterdefault-ul a{
+	padding:15px 33px 15px 26px;
+	float: left;
+	position: relative;
+}
+.enterdefault-ul a:hover{
+	color: #FF4883;
+	text-decoration: none;
+}
+.enterdefault-ul a i{
+	width:11px;
+	height:12px;
+	position: absolute;
+	background: url('../images/down-arrow.png') no-repeat;
+	top:16px;
+	left:53px;
+}
+.enterdefault-ul a:hover i{
+	background: url('../images/down-arrow-hover.png') no-repeat;
+}
+.enterdefault-ul a s{
+	border:6px solid transparent;
+	border-bottom-color:#999999;
+	width: 0;
+	height: 0;
+	display: inline-block;
+	position: absolute;
+	top:8px;
+	left:53px;
+}
+.enterdefault-ul a:hover s{
+	border-bottom-color:#FF4883;
+}
+.enterdefault-ul a span{
+	border:6px solid transparent;
+	border-top-color:#999999;
+	width: 0;
+	height: 0;
+	display: inline-block;
+	position: absolute;
+	top:23px;
+	left:53px;
+}
+.enterdefault-ul a b{
+	width:11px;
+	height:12px;
+	position: absolute;
+	background: url('../images/up-arrow.png') no-repeat;
+	top:16px;
+	left:53px;
+}
+.enterdefault-ul a:hover b{
+	background: url('../images/up-arrow-hover.png') no-repeat;
+}
+.enterdefault-ul a em{
+	width:11px;
+	height:12px;
+	position: absolute;
+	background: url('../images/up-arrow.png') no-repeat;
+	top:16px;
+	left:77px;
+}
+.enterdefault-ul a:hover em{
+	background: url('../images/up-arrow-hover.png') no-repeat;
+}
+.enterdefault-appoint{
+	height:41px;
+	float: left;
+	
+}
+.enterdefault-appoint ul li{
+	float: left;
+}
+.enterdefault-appoint a{
+	padding:15px 0px 15px 41px;
+	float: left;
+	position: relative;
+}
+.enterdefault-appoint a:hover{
+	text-decoration: none;
+	color: #666;
+}
+.enterdefault-appoint a i{
+	width:16px;
+	height:16px;
+	position: absolute;
+	background: url('../images/small icon.png') no-repeat;
+	top:14px;
+	left:20px;
+}
+
+.enterdefault-menu h3{
+	padding:15px 0px 15px 35px;
+	float: left;
+	color: #999999;
+	position: relative;
+}
+.enterdefault-menu h3 i{
+	width:16px;
+	height:16px;
+	position: absolute;
+	background: url('../images/small icon.png') no-repeat;
+	top:14px;
+	left:14px;
+}
+.enterdefault-menu h3 em{
+	position: absolute;
+	height:10px;
+	line-height: 10px;
+	width:22px;
+	text-align: center;
+	font-size: 10px;
+	display: inline-block;
+	background: #FF318C;
+	color:#fff;
+	top:10px;
+	right:-24px;
+}
+.enterdefault-right{
+	height:41px;
+	line-height: 41px;
+	width:70px;
+	text-align: center;
+	float: right;
+	color:#7C667C;
+	padding-right:20px;
+	position: relative;
+}
+.enterdefault-right b{
+	width:6px;
+	height:11px;
+	position: absolute;
+	background: url('../images/arrow-left.png') no-repeat;
+	top:15px;
+	left:0px;
+}
+.enterdefault-right a{
+	width:6px;
+	height:11px;
+	position: absolute;
+	background: url('../images/arrowright.png') no-repeat;
+	top:15px;
+	right:17px;
+}
+.enterdefault-right a:hover{
+	background: url('../images/arrowright-hover.png') no-repeat;
+}
+/*-   -默认   end--*/
+
+
+/*-   -item   start--*/
+.item{		/*item整体样式*/
+	height:8100px;
+	margin-top:20px;
+	position: relative;
+}
+.itembox{		/*itembox整体样式*/
+	height:8100px;
+	position: relative;
+}
+.border1{	/*绝对定位的竖线1整体样式*/
+	position: absolute;
+	display: inline-block;
+	width:1210px;
+	height:1px;
+	background:#DFDFDF;
+	top:335px;
+	left:0;
+}
+.border2{		/*绝对定位的竖线2整体样式*/
+	position: absolute;
+	display: inline-block;
+	width:1210px;
+	height:1px;
+	background:#DFDFDF;
+	top:685px;
+	left:0;
+}
+.border3{		/*绝对定位的竖线3整体样式*/
+	position: absolute;
+	display: inline-block;
+	width:1210px;
+	height:1px;
+	background:#DFDFDF;
+	top:1041px;
+	left:0;
+}
+.border4{		/*绝对定位的竖线4整体样式*/
+	position: absolute;
+	display: inline-block;
+	width:1210px;
+	height:1px;
+	background:#DFDFDF;
+	top:1396px;
+	left:0;
+}
+.border5{		/*绝对定位的竖线5整体样式*/
+	position: absolute;
+	display: inline-block;
+	width:1210px;
+	height:1px;
+	background:#DFDFDF;
+	top:1748px;
+	left:0;
+}
+.border6{		/*绝对定位的竖线6整体样式*/
+	position: absolute;
+	display: inline-block;
+	width:1210px;
+	height:1px;
+	background:#DFDFDF;
+	top:2103px;
+	left:0;
+}
+.border7{		/*绝对定位的竖线7整体样式*/
+	position: absolute;
+	display: inline-block;
+	width:1210px;
+	height:1px;
+	background:#DFDFDF;
+	top:2456px;
+	left:0;
+}
+.border8{		/*绝对定位的竖线7整体样式*/
+	position: absolute;
+	display: inline-block;
+	width:1210px;
+	height:1px;
+	background:#DFDFDF;
+	top:2809px;
+	left:0;
+}
+.border9{		/*绝对定位的竖线7整体样式*/
+	position: absolute;
+	display: inline-block;
+	width:1210px;
+	height:1px;
+	background:#DFDFDF;
+	top:3162px;
+	left:0;
+}
+.border10{		/*绝对定位的竖线7整体样式*/
+	position: absolute;
+	display: inline-block;
+	width:1210px;
+	height:1px;
+	background:#DFDFDF;
+	top:3515px;
+	left:0;
+}
+.border11{		/*绝对定位的竖线7整体样式*/
+	position: absolute;
+	display: inline-block;
+	width:1210px;
+	height:1px;
+	background:#DFDFDF;
+	top:3863px;
+	left:0;
+}
+.border12{		/*绝对定位的竖线7整体样式*/
+	position: absolute;
+	display: inline-block;
+	width:1210px;
+	height:1px;
+	background:#DFDFDF;
+	top:4221px;
+	left:0;
+}
+.border13{		/*绝对定位的竖线7整体样式*/
+	position: absolute;
+	display: inline-block;
+	width:1210px;
+	height:1px;
+	background:#DFDFDF;
+	top:4574px;
+	left:0;
+}
+.border14{		/*绝对定位的竖线7整体样式*/
+	position: absolute;
+	display: inline-block;
+	width:1210px;
+	height:1px;
+	background:#DFDFDF;
+	top:4927px;
+	left:0;
+}
+.border15{		/*绝对定位的竖线7整体样式*/
+	position: absolute;
+	display: inline-block;
+	width:1210px;
+	height:1px;
+	background:#DFDFDF;
+	top:5280px;
+	left:0;
+}
+.border16{		/*绝对定位的竖线7整体样式*/
+	position: absolute;
+	display: inline-block;
+	width:1210px;
+	height:1px;
+	background:#DFDFDF;
+	top:5633px;
+	left:0;
+}
+.border17{		/*绝对定位的竖线7整体样式*/
+	position: absolute;
+	display: inline-block;
+	width:1210px;
+	height:1px;
+	background:#DFDFDF;
+	top:5986px;
+	left:0;
+}
+.border18{		/*绝对定位的竖线7整体样式*/
+	position: absolute;
+	display: inline-block;
+	width:1210px;
+	height:1px;
+	background:#DFDFDF;
+	top:6339px;
+	left:0;
+}
+.border19{		/*绝对定位的竖线7整体样式*/
+	position: absolute;
+	display: inline-block;
+	width:1210px;
+	height:1px;
+	background:#DFDFDF;
+	top:6692px;
+	left:0;
+}
+.border20{		/*绝对定位的竖线7整体样式*/
+	position: absolute;
+	display: inline-block;
+	width:1210px;
+	height:1px;
+	background:#DFDFDF;
+	top:7045px;
+	left:0;
+}
+.border21{		/*绝对定位的竖线7整体样式*/
+	position: absolute;
+	display: inline-block;
+	width:1210px;
+	height:1px;
+	background:#DFDFDF;
+	top:7398px;
+	left:0;
+}
+.border22{		/*绝对定位的竖线7整体样式*/
+	position: absolute;
+	display: inline-block;
+	width:1210px;
+	height:1px;
+	background:#DFDFDF;
+	top:7751px;
+	left:0;
+}
+.itembox ul li{		/*itembox下面的li单独样式*/
+	float: left;
+	width:231px;
+	height:306px;
+	border:1px solid #fff;
+	margin:4px 0px 42px 11px;
+	position: relative;
+}
+.itembox ul li:hover{	/*itembox下面的li鼠标样式*/
+	border:1px solid #FF4883;
+}
+.itembox-menu img{	/*itembox-menu下面的图片样式*/
+	border:1px solid #DFDFDF;
+	height:136px;
+	width:224px;
+	margin:5px 2px;
+	position: relative;
+}
+.itembox-menu i{	/*itembox-menu下面的绝对定位的图片样式*/
+	height:48px;
+	width:46px;
+	background: url('../images/appointment.png') no-repeat;
+	position: absolute;
+	top:6px;
+	left:3px;
+}
+.itembox-menu p{		/*itembox-menu下面主文字样式*/
+	font-size:16px;
+	font-weight: bold;
+	color:#444444;
+	padding-top:10px;
+	padding-left:3px;
+}
+.itembox-menu:hover p{		/*itembox-menu下面主文字鼠标覆盖样式*/
+	color:#FF4883;
+}
+.itembox ul li a:hover{		/*itembox下面文字鼠标覆盖样式*/
+	text-decoration: none;
+}
+.itembox-menu span{		/*itembox-menu下面副文字样式*/
+	display: inline-block;
+	height:30px;
+	width:224px;
+	line-height: 21px;
+	padding:8px 0 15px 5px;
+}
+.itembox ul li a:hover span{	/*itembox-menu下面副文字鼠标覆盖样式*/
+	text-decoration: underline;
+}
+.itembox ul li b{	/*itembox下面图片上定位文字样式*/
+	height:36px;
+	line-height: 36px;
+	width:224px;
+	text-align: left;
+	background: #000;
+	position: absolute;
+	top:106px;
+	left:3px;
+	opacity: 0.7;
+	
+	display: none;
+	font-weight: normal;
+}
+.itembox ul li b h5{	/*itembox下面图片上定位文字样式*/
+	color:#fff;
+	padding-left:18px;
+}
+.itembox-menu em{	/*itembox下面图片上定位图片样式*/
+	position: absolute;
+	width:9px;
+	height:12px;
+	background: url('../images/coordinates.png') no-repeat;
+	top:119px;
+	left:7px;
+	display: none;
+	
+}
+.itembox ul li:hover b{	/*itembox下面图片上鼠标覆盖定位文字显现样式*/
+	display: block;
+}
+.itembox ul li:hover em{		/*itembox下面图片上鼠标覆盖定位图片显现样式*/
+	display: block;
+}
+.itembox .cur{		/*itembox下面特殊外边距样式*/
+	margin-left:0;
+}
+
+.itembox-info{		/*itembox-info整体样式*/
+	height:17px;
+	line-height: 17px;
+	width:224px;
+	margin-top:20px;
+	margin-left:4px;
+	position: relative;
+}
+.itembox-info h3{	/*itembox-info下面绝对定位文字样式*/
+	height:18px;
+	line-height: 18px;
+	padding:0 5px;
+	background: #FF4883;
+	color:#fff;
+	position: absolute;
+	top:-28px;
+	left:1px;
+}
+.itembox-info h4{	/*itembox-info下面左边文字样式*/
+	width:55px;
+	height:17px;
+	font-size: 19px;
+	color:#FF48A2;
+	display: inline-block;
+}
+.itembox-info h5{	/*itembox-info下面右边文字样式*/
+	color:#9E9E9E;
+	display: inline-block;
+
+}
+.itembox-score{	/*itembox-score整体样式*/
+	height:12px;
+	line-height: 12px;
+	width:220px;
+	margin-top:15px;
+	margin-left:4px;
+	color:#9E9E9E;
+}
+.itembox-score h4{	/*itembox-score 下面左边文字样式*/
+	float: left;
+	color: #005AA0;
+	display: inline-block;
+}
+.itembox-score h5{	/*itembox-score 下面右边文字样式*/
+	float: right;
+	display: inline-block;
+}
+
+/*-   -item    end--*/
+
+
+
+
+
+
+
+
+
+
+

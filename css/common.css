@@ -1,0 +1,148 @@
+@charset "utf-8";
+/* common.css */
+.sec1210{		/*给所有的大的区块一个统一的样式*/
+	width:1210px;
+	margin:0 auto;
+}
+
+.fl{	/*导航栏左边左浮动*/
+	float:left;
+}
+.fr{	/*导航栏右边右浮动*/
+	float:right;
+}
+
+a{		/*项目中所有的a链接默认颜色*/
+	color:#666666;
+}
+a:hover{/*项目中所有的a链接鼠标覆盖上的颜色*/
+	color:#005AA0;
+}
+
+/* 项目中要用到的颜色*/
+.c-Skyblue{
+	color:#73ADC9;/*天蓝色*/
+}
+.c-blue{
+	color:#005AA0;/*蓝色*/
+}
+.c-gray{
+	color:#666;/*灰色*/
+}
+.c-dgray{
+	color:#333;/*深灰色*/
+}
+.c-lgray{
+	color:#999;/*浅灰色*/
+}
+.c-peach{
+	color:#FF4883;/*桃红色*/
+}
+
+
+
+/*----------项目中要用到的边距----------------------*/
+.mt4{
+	margin-top:4px;	/*距离顶部4像素*/
+}
+.mt10{
+	margin-top:10px;	/*距离顶部10像素*/
+}
+.mt13{
+	margin-top:13px;	/*距离顶部13像素*/
+}
+.mt18{
+	margin-top:18px;	/*距离顶部18像素*/
+}
+.mt20{
+	margin-top:20px;	/*距离顶部20像素*/
+}
+.mb10{
+	margin-bottom:10px;	/*距离底部10像素*/
+}
+.mb25{
+	margin-bottom:25px;	/*距离底部25像素*/
+}
+
+.mr10{
+	margin-right:10px;	/*距离右边10像素*/
+}
+.mr25{
+	margin-right:25px;	/*距离右边25像素*/
+}
+.mr40{
+	margin-right:40px;	/*距离右边40像素*/
+}
+.ml5{
+	margin-left:5px;	/*距离左边5像素*/
+}
+.ml10{
+	margin-left:10px;	/*距离左边10像素*/
+}
+.ml12{
+	margin-left:12px;	/*距离左边12像素*/
+}
+.ml14{
+	margin-left:14px;	/*距离左边14像素*/
+}
+.ml16{
+	margin-left:16px;	/*距离左边16像素*/
+}
+.ml18{
+	margin-left:18px;	/*距离左边18像素*/
+}
+.ml30{
+	margin-left:30px;	/*距离左边30像素*/
+}
+
+
+
+.fs-9{
+	font-size:9px;		/*字体为9号字体，并且加粗*/
+	font-weight:bolder;
+}
+.fs-12{
+	font-size:12px;		/*字体为12号字体，并且加粗*/
+	font-weight:bolder;
+}
+.fs-14{					/*字体为14号字体，并且加粗*/
+	font-size:14px;
+	font-weight:bolder;
+}
+.fs-16{					/*字体为16号字体，并且加粗*/
+	font-size:16px;
+	font-weight:bolder;
+}
+.fs-20{					/*字体为20号字体，并且加粗*/
+	font-size:20px;
+	font-weight:bolder;
+}
+.fs-28{					/*字体为28号字体，并且加粗*/
+	font-size:28px;
+	font-weight:bolder;
+}
+.fs-32{					/*字体为32号字体，并且加粗*/
+	font-size:32px;
+	font-weight:bolder;
+}
+.fs12{					/*字体为12号字体*/
+	font-size:12px;
+}
+.fs13{					/*字体为13号字体*/
+	font-size:13px;
+}
+.fs14{					/*字体为14号字体*/
+	font-size:14px;
+}
+.fs16{					/*字体为16号字体*/
+	font-size:16px;
+}						/*字体为20号字体*/
+.fs20{
+	font-size:20px;
+}						/*字体为23号字体*/
+.fs23{
+	font-size:23px;
+}
+.bor-top{
+	border-top:1px solid #DFDFDF;
+}

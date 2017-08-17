@@ -1,0 +1,167 @@
+@charset "utf-8";
+/* footer.css */
+
+/*--footer   start--*/
+.footer{		/*footer整体样式*/
+	height:250px;
+	width:100%;
+	background: #FAFAFA;
+	border-top:1px solid #DFDFDF;
+	border-bottom:1px solid #DFDFDF;
+	margin-top:50px;
+}
+.footer-inner{	/*footer-inner整体样式*/
+	height:250px;
+}
+.footer-size1{	/*用户帮助 整体样式*/
+	width:15%;
+	height:150px;
+	float: left;
+	margin:50px 0;
+	border-right:1px solid #DFDFDF;
+}
+.footer-size1 dl dt{	/*“用户帮助” 样式*/
+	font-size:18px;
+	margin-bottom: 24px;
+}
+.footer-size1 dl dd{	/*用户帮助 下面dd样式*/
+	font-size:14px;
+	margin-bottom: 13px;
+}
+.footer-size2{		/*手机百度助手 整体样式*/
+	width:20%;
+	height:150px;
+	border-right:1px solid #DFDFDF;
+	float: left;
+	margin:50px 0;
+	text-align: center;
+}
+.footer-size2 dl dt{		/*“手机百度助手” 样式*/
+	font-size:18px;
+	margin-bottom: 24px;
+}
+.footer-size2 dl dd{		/*手机百度助手 下面dd样式*/
+	font-size:14px;
+	margin-bottom: 13px;
+}
+.footer-size3{		/*商务合作 整体样式*/
+	width:20%;
+	height:150px;
+	border-right:1px solid #DFDFDF;
+	float: left;
+	margin:50px 0;
+	text-align: center;
+}
+.footer-size3 dl dt{		/*“商务合作” 样式*/
+	font-size:18px;
+	margin-bottom: 24px;
+}
+.footer-size3 dl dd{		/*商务合作 下面dd样式*/
+	font-size:14px;
+	margin-bottom: 13px;
+}
+.footer-size4{		/*公司信息 整体样式*/
+	width:20%;
+	height:150px;
+	border-right:1px solid #DFDFDF;
+	float: left;
+	margin:50px 0;
+	text-align: center;
+}
+.footer-size4 dl dt{		/*“公司信息” 样式*/
+	font-size:18px;
+	margin-bottom: 24px;
+}
+.footer-size4 dl dd{		/*公司信息 下面dd样式*/
+	font-size:14px;
+	margin-bottom: 13px;
+}
+.footer-size5{		/*电话  整体样式*/
+	width:24%;
+	height:150px;
+	border-right:1px solid #DFDFDF;
+	float: left;
+	margin:50px 0;
+	text-align: center;
+}
+.footer-size5 dl dt{		/*“电话” 样式*/
+	font-size:18px;
+	margin-bottom: 24px;
+}
+.footer-size5 dl dd{		/*电话  下面dd样式*/
+	font-size:14px;
+	margin-bottom: 13px;
+	color:#6D6D6D;
+}
+
+.footer-size5 a{		/*电话  下面超链接样式*/
+	width:160px;
+	height:35px;
+	line-height: 35px;
+	text-align: center;
+	background: #FF4883;
+	display: inline-block;
+	font-size: 14px;
+	color: #fff;
+	margin-top:8px;
+}
+.footer-size5 a:hover{		/*电话  下面超链接鼠标覆盖样式*/
+	background: #C92258;
+	text-decoration: none;
+	color: #fff;
+}
+/*--footer   end--*/
+
+
+/*--footer2   start--*/
+.footer2{		/*footer2 整体样式*/
+	height:170px;
+	width:640px;
+	margin:0 auto;
+}
+.footer2 ul li{  /*footer2 单独li样式*/
+	float: left;
+	padding:0 5px;
+	color:#666666;
+}
+.footer2 .footer2-ul{	/*footer2-ul 整体样式*/
+	width:478px;
+	height:12px;
+	margin:0 auto;
+	padding-top:37px;
+}
+.footer2-ul a{		/*footer2-ul  a样式*/
+	color:#666666;
+}
+.footer2-ul a:hover{		/*footer2-ul  a鼠标覆盖样式*/
+	color:#666666;
+}
+
+.footer2-img{	/*footer2-img样式*/
+	width:640px;
+	height:40px;
+	margin-top:19px;
+}
+.footer2-img ul li img{	/*footer2-img下面图片样式*/
+	float: left;
+}
+.footer-police{
+	height:20px;
+	width:198px;
+	margin:0 auto;
+	margin-top:19px;
+}
+.footer-police img{		/*footer-police下面图片样式*/
+	float: left;
+}
+.footer-police p{	/*footer-police下面文字样式*/
+	float: left;
+	margin-left:5px;
+	color:#939393;
+}
+.footer-police a:hover p{		/*footer-police下面文字鼠标覆盖样式*/
+	color:#939393;
+}
+/*--footer2   end--*/
+
+

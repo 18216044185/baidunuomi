@@ -1,0 +1,816 @@
+@charset "utf-8";
+/* header.css */
+
+/*---顶部的导航   start---*/
+.topbox{/*上面topbox总体的样式*/
+	width: 100%;
+	background: #FAFAFA;
+	height:36px;
+	border-bottom: 1px solid #DFDFDF;
+}
+.top{	/*上面top总体的样式*/
+	height:36px;
+}
+.basic{		/*上面basic总体的样式*/
+	height:36px;
+}
+.basic ul li,.user ul li{		/*上面basic下面每个li的样式*/
+	float:left;
+	height:36px;
+	line-height: 36px;
+	color:#8C8C8C;
+	position: relative;
+}
+.basic a:hover{		/*上面basic下面a链接鼠标覆盖样式*/
+	color:#73ADC9;
+	text-decoration:none;
+}
+.kong-left{					/*导航条左边间隙*/
+	margin-left:10px;
+}
+.kong-right{					/*导航条右边间隙*/
+	margin-right:10px;
+}
+.icon-tri{		/*向下的箭头*/
+	width:9px;
+	height:5px;
+	background: url(../images/logo-arrow.jpg) no-repeat;
+	float:left;
+	position: absolute;
+	top:16px;
+	right:5px;
+}
+.vertical-line{	/*垂直的线条*/
+	height: 12px;
+	width: 1px;
+	background: #ddd;
+	float:left;
+	position: absolute;
+	top:13px;
+	right:-1px;
+}
+
+
+.toggleli{				/*表示一个有下拉内容的li*/
+	position:relative;
+}
+.togglea{		/*下拉的a*/
+	display: inline-block;
+	height: 36px;
+	position: relative;
+	border-left: 1px solid transparent;
+	border-right: 1px solid transparent;
+	padding-left:12px;
+	padding-right:18px;
+	z-index:40;
+}
+.togglemenu1{		/*下拉的菜单*/
+	display: none;       /*默认隐藏*/
+	background: #fff;
+	border:1px solid #ddd;
+	width:199px;
+	top:35px;
+	position: absolute;
+	z-index:35;
+}
+.togglemenu1 ul li{		/*下拉菜单里面每个li的样式*/
+	display:inline-block;
+	padding:0 12px;
+	height:23px;
+	line-height: 23px;
+}
+.togglemenu1 h3{			/*"热门城市"样式*/
+	padding-left:12px;
+	color:#73ADC9;
+	font-size:12px;
+}
+
+.toggleli:hover .togglemenu1{	/*把togglemenu1显示出来*/
+	display: block;
+}
+.toggleli:hover .icon-tri{  	/*更改向上的箭头*/
+	width:9px;
+	height:5px;
+	background: url(../images/logo-arrow-hover.jpg) no-repeat;
+	float:left;
+	position: absolute;
+	top:16px;
+	right:5px;
+}
+.toggleli:hover .togglea{ 			/*改变a标记的背景色，边框*/
+	background: #fff;
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+}
+
+.more-city{		/*“更多城市”字体样式*/
+	display: inline-block;
+	margin-top:16px;
+	margin-left:24px;
+}
+.togglemenu1 a:hover.more-city{/*“更多城市”鼠标覆盖字体样式*/
+	color:#666666;
+	text-decoration: underline;
+}
+
+
+
+.user{
+	height:36px;
+}
+.user a:hover{		/*上面basic下面a链接鼠标覆盖样式*/
+	color:#73ADC9;
+	text-decoration:none;
+}
+.togglemenu2{		/*下拉的菜单*/
+	display: none;       /*默认隐藏*/
+	background: #fff;
+	border:1px solid #ddd;
+	top:35px;
+	padding:10px 25px 0 10px;
+	position: absolute;
+	z-index:35;
+}
+.toggleli:hover .togglemenu2{	/*把togglemenu2显示出来*/
+	display: block;
+}
+
+
+.togglemenu3{		/*togglemenu3下拉的菜单*/
+    display: none;       /*默认隐藏*/
+	background: #fff;
+	border:1px solid #ddd;
+	top:34px;
+	position: absolute;
+	z-index:35;
+}
+.togglemenu3 ul li{		/*下拉菜单里面每个li的样式*/
+	height:30px;
+	line-height: 30px;
+	width:78px;
+	text-align: center;
+}
+.toggleli:hover .togglemenu3{/*把togglemenu3显示出来*/
+	display: block;
+}
+
+.togglemenu3 ul li a{/*togglemenu3下面的a*/
+	color:#73ABC9;
+	height:30px;
+	line-height: 30px;
+}
+.togglemenu3 ul li:hover{/*鼠标覆盖上去togglemenu3下面每个li背景颜色*/
+	background: #F7F7F7;
+}
+.user .togglemenu4{		/*togglemenu4右边右对齐*/
+	right:0;
+	left:auto;
+}
+.togglemenu4{/*togglemenu3下拉的菜单*/
+	display:none;
+	width:308px;
+	height:83px;
+	line-height: 83px;
+	text-align: center;
+	position: absolute;
+	z-index:35;
+	background: #fff;
+	border:1px solid #ddd;
+}
+.toggleli:hover .togglemenu4{/*把togglemenu4显示出来*/
+	display: block;
+}
+.togglemenu6{		/*togglemenu6下拉的菜单*/
+	display: none;       /*默认隐藏*/
+	background: #fff;
+	border:1px solid #ddd;
+	top:35px;
+	padding:10px 10px 0 10px;
+	position: absolute;
+	z-index:35;
+}
+.user .togglemenu6{		/*togglemenu6右对齐*/
+	right:0;
+	left:auto;
+}
+.toggleli:hover .togglemenu6{	/*把togglemenu6显示出来*/
+	display: block;
+}
+/*---顶部的导航       end---*/
+
+
+
+/*--logo   start--*/
+.logo{		/*logo整体样式*/
+	height:42px;
+	margin-top:30px;
+}
+.logobox{	/*logobox整体样式*/
+	height:42px;
+	width:563px;
+}
+.logobox img{	/*logobox下面图片样式*/
+	width:147px;
+	height:42px;
+}
+.searchbox{		/*searchbox整体样式*/
+	height:38px;
+	width:486px;
+	display: inline-block;
+	position: relative;
+}
+.searchbox form input{	/*searchbox下面输入框样式*/
+	height:18px;
+	width:404px;
+	border:1px solid #DFDFDF;
+	color:#B4B4B4;
+	font-size:14px;
+	padding:10px 20px;
+	display: inline-block;
+}
+.searchbox form ul{		/*searchbox下面输入框里“金手勺等”总体样式*/
+	display:inline-block;
+	height:18px;
+	position: absolute;
+	width:208px;
+	top:12px;
+	left:246px;
+}
+.searchbox form ul li{	/*searchbox下面输入框里“金手勺等”单独样式*/
+	background: #F0F0F0;
+	display:inline-block;
+}
+.searchbox form ul li a{	/*searchbox下面输入框里“金手勺等”超链接单独样式*/
+	color:#3E3E3E;
+	height:18px;
+	line-height: 18px;
+	width:50px;
+	text-align: center;
+	padding:0 4px;
+	display:inline-block;
+	white-space:nowrap;
+	overflow: hidden;
+	text-overflow:ellipsis;
+}
+.searchbox form ul li a:hover{	/*searchbox下面输入框里“金手勺等”鼠标覆盖超链接单独样式*/
+	color:#3E3E3E;
+	background: #DFDFDF;
+	text-decoration: none;
+}
+.searchbox form button{		/*searchbox下面搜索框整体样式*/
+	border-left:1px solid #DFDFDF;
+	height:40px;
+	width:38px;
+	border:1px solid #DFDFDF;
+	background: none;
+	display: inline-block;
+	margin-left:-1px;
+	cursor:pointer;
+	background: url(../images/search.png) no-repeat;
+}
+.searchbox form button i{	/*searchbox下面搜索框里搜索图标单独样式*/
+	height:14px;
+	width:15px;
+}
+.searchbox form button:hover{	/*searchbox下面搜索框里搜索图标鼠标覆盖单独样式*/
+	background: url(../images/search-hover.png) no-repeat;
+	border:none;
+	height:40px;
+	width:40px;
+}
+.promise{	/*promise整体样式*/
+	height:38px;
+	width:156px;
+	border:1px solid #EBCA4D;
+	position: relative;
+}
+.promise ul li{		/*promise里单独li样式*/
+	height:38px;
+	width:52px;
+	float:left;
+	background: #FEDA4E;
+	position: relative;
+}
+.line{		/*promise里单独竖线样式*/
+	background:#EBCA4D;
+	height:21px;
+	width:1px;
+	display: inline-block;
+	position: absolute;
+	top:8px;
+	left:45px;
+}
+.promise-img-box1 i{	/*promise里box1里图片样式*/
+	display: inline-block;
+	height:22px;
+	width:21px;
+	position: absolute;
+	top:8px;
+	left:9px;
+	background: url(../images/refund.png) no-repeat;
+}
+.promisemenu1{		/*promise里box1里鼠标覆盖样式*/
+	padding:18px 18px 18px 12px;
+	white-space: nowrap; /*不要换行*/
+	text-align: center;
+	font-size:12px;
+	display: none;
+	background: #fff;
+	border:1px solid #DFDFDF;
+	position: absolute;
+	top:47px;
+	left:0px;
+	z-index: 2;
+}
+.promise ul li:hover .promisemenu1{	/*promise里box1里鼠标覆盖显示出来样式*/
+	display:block;
+}
+.promise ul li:hover .icon-triout{	/*promise里box1里鼠标覆盖显示出来三角形样式*/
+	display:block;
+}
+.promise ul li:hover .icon-triin{	/*promise里box1里鼠标覆盖显示出来三角形样式*/
+	display:block;
+}
+.icon-triout{	/*鼠标覆盖上去下方三角形样式*/
+	border:8px solid transparent;
+	border-bottom-color:#ddd;
+	position:absolute;
+	top:32px;
+	left:14px;
+	display: none;
+	z-index: 2;
+}
+.icon-triin{	/*鼠标覆盖上去下方三角形样式*/
+	border:8px solid transparent;
+	border-bottom-color:#fff;
+	position:absolute;
+	top:-6px;
+	left:-8px;
+	display: none;
+	z-index: 2;
+}
+.promise-img-box2 i{		/*promise里box2里图片样式*/
+	display: inline-block;
+	height:22px;
+	width:21px;
+	position: absolute;
+	top:8px;
+	left:10px;
+	background: url(../images/compensate.png) no-repeat;
+}
+.promisemenu2{		/*promise里box2里鼠标覆盖样式*/
+	padding:18px 18px 18px 12px;
+	white-space: nowrap; /*不要换行*/
+	text-align: center;
+	font-size:12px;
+	display: none;
+	background: #fff;
+	border:1px solid #DFDFDF;
+	position: absolute;
+	top:47px;
+	left:-47px;
+	z-index: 2;
+}
+.promise ul li:hover .promisemenu2{	/*promise里box2里鼠标覆盖显示出来样式*/
+	display:block;
+}
+.promise-img-box3 i{		/*promise里box3里图片样式*/
+	display: inline-block;
+	height:22px;
+	width:21px;
+	position: absolute;
+	top:8px;
+	left:11px;
+	background: url(../images/money.png) no-repeat;
+}
+.promisemenu3{		/*promise里box3里鼠标覆盖样式*/
+	padding:18px 18px 18px 12px;
+	white-space: nowrap; /*不要换行*/
+	text-align: center;
+	font-size:12px;
+	display: none;
+	background: #fff;
+	border:1px solid #DFDFDF;
+	position: absolute;
+	top:47px;
+	left:-50px;
+	z-index: 2;
+}
+.promise ul li:hover .promisemenu3{	/*promise里box3里鼠标覆盖显示出来样式*/
+	display:block;
+}
+
+/*--logo   end--*/
+
+
+
+
+/*--   全部分类   start--*/
+.nav{		/*nav整体样式*/
+	height:480px;
+	margin-top:20px;
+	position: relative;
+}
+.navbox{	/*navbox整体样式*/
+	height:44px;
+	background:#313137;
+}
+.navbox h2{	/*navbox下面h2“全部分类”样式*/
+	height:44px;
+	line-height: 44px;
+	width:208px;
+	padding-left:18px;
+	background: #FF318C;
+}
+.navbox h2 a{	/*navbox下面h2“全部分类”超链接样式*/
+	font-size: 18px;
+	height:44px;
+	width:208px;
+	display: inline-block;
+	color:#fff;
+	font-weight: bold;
+}
+.navbox h2 a:hover{	/*navbox下面h2“全部分类”超链接鼠标覆盖样式*/
+	text-decoration: none;
+}
+.catebox{	/*catebox整体样式*/
+	position: relative;
+}
+ul .categroy{	/*categroy整体样式*/
+	position: absolute;
+	width:224px;
+	z-index:10;
+}
+.cateitem{	/*首页一栏总体样式*/
+	height:51px;
+	line-height:51px;
+	background: #F9F9F9;
+	border-left:1px solid #DFDFDF;
+	border-right:1px solid #DFDFDF;
+	border-bottom:1px solid #DFDFDF;
+}
+.level1{	/*level1整体样式*/
+	height:51px;
+	margin-left:20px;
+}
+.level1 .cur:hover{	/*level1下面鼠标覆盖特殊样式*/
+	color:#FF4883;
+	text-decoration: none;
+}
+.level1 span{	/*level1下面span边距样式*/
+	margin-right:20px;
+}
+.level1 span a{	/*level1下面span下面超链接样式*/
+	color:#9A9A9A;
+	margin-left:12px;
+}
+.level1 span a:hover{	/*level1下面span下面超链接覆盖样式*/
+	color:#3F6EA5;
+}
+.level2{		/*level2整体样式*/
+	position: absolute;
+	top:44px;
+	left:226px;
+	height:415px;
+	width:450px;
+	background: #fff;
+	border-bottom:1px solid #DFDFDF;
+	border-right:1px solid #DFDFDF;
+	display: none;
+	z-index:5;
+}
+.on{	/*鼠标覆盖背景样式*/
+	background: #fff;
+}
+.on .level2{	/*鼠标覆盖level2显现出来样式*/
+	display: block;
+}
+.level2 dl{	/*level2下面dl样式*/
+	float: left;
+	margin-left:20px;
+	width:430px;
+}
+.level2 dl dt{	/*level2下面dt样式*/
+	margin-bottom:17px;
+	height:20px;
+	
+	font-weight: bolder;
+}
+.level2 dl dt a{	/*level2下面dt下面a样式*/
+	color:#313037;
+}
+.level2 dl dt a:hover{		/*level2下面dt下面a链接鼠标覆盖样式*/
+	color:#313037;
+	text-decoration: none;
+}
+.level2 dl dd{		/*level2下面dd样式*/
+	float: left;
+	line-height:20px;
+	color:#DFDFDF;
+}
+.level2 dl dd a{		/*level2下面dd下面a样式*/
+	padding:0 8px;
+	color:#949494;
+}
+.level2 dl dd a:hover{	/*level2下面dd下面a链接鼠标覆盖样式*/
+	color:#005AA0;
+}
+.level2 .cur{	/*level2下面边距特殊样式*/
+	padding-left:0;
+}
+.level2 .c-peach{	/*level2下面颜色特殊样式*/
+	color:#FF4883;
+}
+
+
+
+
+
+.nav-right{		/*nav-right整体样式*/
+	height:44px;
+	width:984px;
+}
+.nav-right li{	/*nav-right下面单独li的样式*/
+	float: left;
+	position: relative;
+}
+.nav-right li a{	/*nav-right下面单独li单独超链接的样式*/
+	display: inline-block;
+	font-size: 18px;
+	color:#fff;
+	font-weight: bold;
+	background:#313137;
+	padding:13px 29px 13px 30px;
+}
+.triangle-top{	/*三角图标*/	
+	border:4px solid transparent;
+	border-top-color:#fff;
+	width: 0;
+	height: 0;
+	display: inline-block;
+	position: absolute;
+	top:20px;
+	right:13px;
+}
+.nav-right-li{	/*“出行”定位样式*/
+	position: relative;
+}
+.nav-right-li:hover .nav-right-menu{	/*“出行”鼠标覆盖显示样式*/
+	display: block;
+}
+.nav-right-li:hover .triangle-top{	/*“出行”鼠标覆盖显示样式*/
+	border:4px solid transparent;
+	border-bottom-color:#fff;
+	width: 0;
+	height: 0;
+	display: inline-block;
+	position: absolute;
+	top:15px;
+	right:13px;
+}
+.nav-right-menu{	/*“出行”下拉样式*/
+	position: absolute;
+	white-space:nowrap;
+	display: none;
+	z-index: 5;
+}
+.nav-right-menu dd a{	/*“出行”下拉超链接样式*/
+	float: left;
+	width:84px;
+	height:40px;
+	line-height: 40px;
+	text-align: center;
+	font-size:17px;
+	font-weight: normal;
+	background: #313137;
+	padding: 0 5px;
+	border-bottom:1px solid #414045;
+}
+.nav-right li a:hover{	/*“出行”下拉超链接鼠标覆盖样式*/
+	background: #080809;
+	text-decoration: none;
+}
+.nav-right .hotbox1{	/*“hot”图标1整体样式*/
+	position: absolute;
+	display: inline-block;
+	width:29px;
+	height:13px;
+	line-height: 13px;
+	text-align: center;
+	font-size:9px;
+	color: #31313C;
+	background: #FEDA4E;
+	top:16px;
+	left:97px;
+}
+.nav-right .hotbox2{		/*“hot”图标2整体样式*/
+	position: absolute;
+	display: inline-block;
+	width:29px;
+	height:13px;
+	line-height: 13px;
+	text-align: center;
+	font-size:9px;
+	color: #31313C;
+	background: #FEDA4E;
+	top:16px;
+	left:60px;
+}
+.nav-right .cur{		/*nav-right特殊样式*/
+	background: #080809;
+}
+
+.nav-right .paddingbox{		/*nav-right下面特殊内边距样式*/
+	padding:13px 39px 13px 21px;
+}
+
+
+.nav-middlebox{		/*nav-middlebox整体样式*/
+	height:415px;
+	width:737px;
+	top:44px;
+	left:226px;
+	position: absolute;
+	border-right:1px solid #DFDFDF;
+	border-bottom:1px solid #DFDFDF;
+}
+
+.nav-middlebox img{	/*nav-middlebox下面图片样式*/
+	height:259px;
+	width:737px;
+	float: left;
+	border-bottom:1px solid #DFDFDF;
+}
+.hot-deals{		/*热门团购整体样式*/
+	height:97px;
+	width:205px;
+	padding:28px 10px 30px 30px;
+	border-right:1px solid #DFDFDF;
+	float: left;
+}
+.hot-deals h2{		/*“热门团购”字体单独样式*/
+	height:22px;
+	line-height: 22px;
+	width:205px;
+	text-align: center;
+	font-size: 18px;
+	color: #333333;
+	font-weight: bold;
+}
+.hot-deals ul li{	/*热门团购单独li样式*/
+	float: left;
+	margin-top:16px;
+}
+.hot-deals ul li a{		/*热门团购单独a链接样式*/
+	color:#878787;
+	margin-right:21px;
+	height:26px;
+	line-height: 13px;
+}
+.hot-deals .cur{	/*热门团购单独特殊颜色样式*/
+	color:#FF5E8A;
+}
+.hot-deals ul li a:hover{	/*热门团购单独a链接鼠标覆盖样式*/
+	color:#0B5C9E;
+}
+.all-areas{		/*全部区域整体样式*/
+	height:97px;
+	width:205px;
+	padding:28px 10px 30px 30px;
+	border-right:1px solid #DFDFDF;
+	float: left;
+}
+.all-areas h2{		/*“全部区域”字体单独样式*/
+	height:22px;
+	line-height: 22px;
+	width:205px;
+	text-align: center;
+	font-size: 18px;
+	color: #333333;
+	font-weight: bold;
+}
+.all-areas ul li{		/*全部区域单独li样式*/
+	float: left;
+	margin-top:16px;
+}
+.all-areas ul li a{		/*全部区域单独a链接样式*/
+	color:#878787;
+	margin-right:21px;
+	height:26px;
+	line-height: 13px;
+}
+.all-areas .cur{		/*全部区域单独特殊颜色样式*/
+	color:#FF5E8A;
+}
+.all-areas ul li a:hover{		/*全部区域单独a链接鼠标覆盖样式*/
+	color:#0B5C9E;
+}
+
+
+
+.all-locate{		/*隐藏的全部区域整体样式*/
+	display: none;
+	width:205px;
+	padding:20px 3px 17px 22px;
+	margin-top:8px;
+	border:1px solid #DFDFDF;
+	background: #fff;
+	position: absolute;
+	top:259px;
+	left:253px;
+	z-index: 5;
+}
+.all-locate h2{		/*“隐藏的全部区域”字体单独样式*/
+	height:22px;
+	line-height: 22px;
+	width:205px;
+	text-align: center;
+	font-size: 18px;
+	color: #333333;
+	font-weight: bold;
+}
+.all-locate ul li{		/*隐藏的全部区域单独li样式*/
+	float: left;
+	margin-top:16px;
+}
+.all-locate ul li a{		/*隐藏的全部区域单独a链接样式*/
+	color:#878787;
+	margin-right:21px;
+	height:26px;
+	line-height: 13px;
+}
+.all-locate .cur{		/*隐藏的全部区域单独特殊颜色样式*/
+	color:#FF5E8A;
+}
+.all-locate ul li a:hover{		/*隐藏的全部区域单独a链接鼠标覆盖样式*/
+	color:#0B5C9E;
+}
+.all-areas-hover:hover .all-locate{	/*鼠标覆盖把隐藏的全部区域显现出来样式*/
+	display:block;
+}
+.triangle-bottom{		/*三角形样式*/
+	border:7px solid transparent;
+	border-top-color:#666666;
+	width: 0;
+	height: 0;
+	display: inline-block;
+	position: absolute;
+	top:357px;
+	right:268px;
+}
+.business-circle{		/*热门商圈整体样式*/
+	height:97px;
+	width:205px;
+	padding:28px 10px 30px 30px;
+	float: left;
+}
+.business-circle h2{		/*“热门商圈”字体单独样式*/
+	height:22px;
+	line-height: 22px;
+	width:205px;
+	text-align: center;
+	font-size: 18px;
+	color: #333333;
+	font-weight: bold;
+}
+.business-circle ul li{		/*热门商圈单独li样式*/
+	float: left;
+	margin-top:16px;
+}
+.business-circle ul li a{		/*热门商圈单独a链接样式*/
+	color:#878787;
+	margin-right:21px;
+	height:26px;
+	line-height: 13px;
+}
+.business-circle .cur{		/*热门商圈单独特殊颜色样式*/
+	color:#FF5E8A;
+}
+.business-circle ul li a:hover{		/*热门商圈单独a链接鼠标覆盖样式*/
+	color:#0B5C9E;
+}
+
+
+
+.nav-rightbox{		/*nav-rightbox总体样式*/
+	height:415px;
+	width:245px;
+	position: absolute;
+	top:44px;
+	right:0px;
+	border-right:1px solid #DFDFDF;
+	border-bottom:1px solid #DFDFDF;
+}
+.nav-rightbox img{	/*nav-rightbox图片样式*/
+	width:246px;
+	height:259px;
+	border-bottom:1px solid #DFDFDF;
+}
+.nav-rightbox .download-APP{	/*nav-rightbox下载APP图片样式*/
+	width:246px;
+	height:155px;
+}
+/*--   全部分类   end--*/
+
+
+
